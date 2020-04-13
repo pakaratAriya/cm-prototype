@@ -1,0 +1,66 @@
+.Menu{
+    flex-grow: 1;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+    line-height: 40px;
+}
+
+.Menu:hover{
+    color: #DBC820;
+}
+
+.Menu.active{
+    color: #DBC820;
+    text-decoration: underline;
+}
+
+
+.subMenu.active{
+    color: #DBC820;
+    text-decoration: underline;
+}
+
+.dropdown{
+    border: 0px;
+    background-color: black;
+}
+
+.dropdown{
+    position: absolute;
+    transform: translateY(40px);
+    text-align: center;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.arrow{
+    color: gray;
+    line-height: 40px;
+    font-size: 0.4em;
+    vertical-align: middle;
+}
+
+.subMenu{
+    color: white;
+    text-decoration: none;
+    height: 40px;
+    /* background-color: black; */
+    padding: 5px;
+}
+
+.menu:hover .dropdown{
+    display: block;
+}
+
+
+
+
+
+
+
+.subMenu:hover{
+    color: #DBC820;
+}
